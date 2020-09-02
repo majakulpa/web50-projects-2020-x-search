@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-advanced">
+      <div class="header-info">
+        <img src="googlelogo.png" alt="google logo" class="header-logo" />
+      </div>
+      <ul class="header-menu">
+        <li><a class="link" href="index.html">Search</a></li>
+        <li><a class="link" href="images-search.html">Images</a></li>
+        <li>
+          <a href="#"><i class="fa fa-th"></i></a>
+        </li>
+        <li><a class="letter-icon" href="#">M</a></li>
+      </ul>
+    </header>
+    <div class="advanced-main">
+      <div class="advanced-main__heading"><h2>Advanced Search</h2></div>
+      <div class="advanced-main__body">
+        <form action="https://www.google.com.au/search">
+          <div class="advanced-main__body-form-upper">
+            <div class="advanced-main__body-form-fields">
+              <h4>Find pages with...</h4>
+              <div>
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" id="as_q" />
+              </div>
+              <div>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="as_epq" />
+              </div>
+              <div>
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq" id="as_oq" />
+              </div>
+              <div>
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq" id="as_eq" />
+              </div>
+              <div class="nr-range">
+                <label for="nr-from">numbers ranging from</label>
+                <input type="text" id="nr-from" />
+                <label for="nr-to">to</label>
+                <input type="text" id="nr-to" />
+              </div>
+            </div>
+            <div class="advanced-main__body-tips">
+              <h5>To do this in the search box.</h5>
+              <p>Type the important words: tri-colour rat terrier</p>
+              <p>Put exact words in quotes: "rat terrier"</p>
+              <p>
+                Type OR between all the words you want: miniature OR standard
+              </p>
+              <p>
+                Put a minus sign just before words that you don't want: -rodent,
+                -"Jack Russell"
+              </p>
+              <p>
+                Put two full stops between the numbers and add a unit of
+                measurement: 10..35 kg, £300..£500, 2010..2011
+              </p>
+            </div>
+          </div>
+          <div class="advanced-main__body-form-down">
+            <div class="advanced-main__body-form-fields">
+              <h4>Then narrow your results by..</h4>
+              <div>
+                <label for="lang">language:</label>
+                <select id="lang">
+                  <option>any language</option>
+                  <option>Afrikaans</option>
+                  <option>Arabic</option>
+                  <option>Armenian</option>
+                  <option>Belarusian</option>
+                </select>
+              </div>
+              <div>
+                <label for="region">region:</label>
+                <select id="region">
+                  <option>any region</option>
+                  <option>Afghanistan</option>
+                  <option>Albania</option>
+                  <option>American Samoa</option>
+                  <option>Andorra</option>
+                </select>
+              </div>
+              <div>
+                <label for="update">last update:</label>
+                <select id="update">
+                  <option>anytime</option>
+                  <option>last 24 hours</option>
+                  <option>upto a week ago</option>
+                  <option>upto a month ago</option>
+                  <option>upto a year ago</option>
+                </select>
+              </div>
+              <div>
+                <label for="site">site or domain:</label>
+                <input type="text" id="site" />
+              </div>
+              <div>
+                <label for="terms">terms appearing:</label>
+                <select id="terms">
+                  <option>anywhere in the page</option>
+                  <option>in the title of the page</option>
+                  <option>in the text of the page</option>
+                  <option>in the URL of the page</option>
+                  <option>in links to the page</option>
+                </select>
+              </div>
+              <div>
+                <label for="safe">SafeSearch:</label>
+                <select id="safe">
+                  <option>Show most relevant results</option>
+                  <option>Filter explicit results</option>
+                </select>
+              </div>
+              <div>
+                <label for="file">file type:</label>
+                <select id="file">
+                  <option>any format</option>
+                  <option>.pdf</option>
+                  <option>.ps</option>
+                  <option>.doc</option>
+                  <option>.ai</option>
+                </select>
+              </div>
+              <div>
+                <label for="rights">usage rights:</label>
+                <select id="rigths">
+                  <option>not filtered by licence</option>
+                  <option>free to use or share</option>
+                  <option>free to use or share, even commercially</option>
+                  <option>free to use or share or modify</option>
+                  <option
+                    >free to use or share or modify, even commercially</option
+                  >
+                </select>
+              </div>
+              <button>Advanced Search</button>
+            </div>
+            <div class="advanced-main__body-tips second-tips">
+              <p>Find pages in the language that you select.</p>
+              <p>Find pages published in a particular region.</p>
+              <p>
+                Find pages updated within the time that you specify.
+              </p>
+              <p>
+                Search one site (like wikipedia.org ) or limit your results to a
+                domain like .edu, .org or .gov
+              </p>
+              <p>
+                Search for terms in the whole page, page title or web address,
+                or links to the page you're looking for.
+              </p>
+              <p>
+                Tell <a href="#">SafeSearch</a> whether to filter sexually
+                explicit content.
+              </p>
+              <p>Find pages in the format that you prefer.</p>
+              <p>Find pages that you are free to use yourself.</p>
+            </div>
+          </div>
+        </form>
+        <div class="advanced-main__info">
+          <h4>You can also...</h4>
+          <a href="#">Find pages that are similar to a URL</a>
+          <a href="#">Search pages that you've visited</a>
+          <a href="#">Use operators in the search box</a>
+          <a href="#">Customise your search settings</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>Australia</div>
+      <div>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

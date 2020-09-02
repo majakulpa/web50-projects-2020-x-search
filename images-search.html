@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Images Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-body">
+    <header>
+      <ul class="header-info">
+        <li><a class="link" href="#">About</a></li>
+        <li><a class="link" href="#">Store</a></li>
+      </ul>
+      <ul class="header-menu">
+        <li><a class="link" href="#">Gmail</a></li>
+        <li><a class="link" href="index.html">Search</a></li>
+        <li>
+          <a href="#"><i class="fa fa-th"></i></a>
+        </li>
+        <li><a class="letter-icon" href="#">M</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="logo">
+        <img class="search-logo" src="googlelogo.png" alt="google logo" />
+        <span>images</span>
+      </div>
+      <form action="https://www.google.com/images?q">
+        <input class="form-search image-search" type="text" name="q" />
+        <i class="fa fa-search image-search__icon"></i>
+        <i class="fa fa-camera"></i>
+        <i class="fa fa-microphone image-search__micro"></i>
+        <button type="submit" class="image-search__button">
+          <i class="fa fa-search" id="search"></i>
+        </button>
+      </form>
+    </div>
+    <footer>
+      <div>Australia</div>
+      <div>
+        <ul>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search works</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li class="dropdown">
+            <button class="dropbtn">Settings</button>
+            <div class="dropdown-content">
+              <a href="#">Search settings</a>
+              <a href="advanced-search.html">Advanced search</a>
+              <a href="#">Your data in Search</a>
+              <a href="#">Search activity</a>
+              <a href="#">Search help</a>
+              <a href="#">Send feedback</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
